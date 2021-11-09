@@ -3,9 +3,145 @@
 <odoo>
 
     <template id="contact_us" name="Contact us">
-        <div class="container">
-           HELLOOOO MANGIIII
+        <link href="/odoo_support/static/src/css/support.css" type="text/css" rel="stylesheet" media="screen" />
+        <link href="/odoo_support/static/src/css/font-awesome.min.css" type="text/css" rel="stylesheet" media="screen" />
+        <div class="wrapper">
+            <div class="row header-row">
+                <div class="col-12">
+                    <img src="/odoo_support/static/src/img/sample.jpg" width="400" height="60"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class ="title">
+                        <h4>CONTACT US</h4>
+                        <span>.....</span>
+                        <div class="item-cell board">
+                            <ul class="fa-ul text-left">
+                                <li>
+                                    <i class="fa-li fa fa-home"></i>
+                                    <span>
+                                    International House, <br/>
+                                    Cray Avenue, Orpington<br/>
+                                    Kent BR5 3RS<br/>
+                                    England
+                                    </span>
+                                </li><br/>
+                                <li>
+                                    <i class="fa-li fa fa-phone"></i>
+                                    <span>+966 54 917 6097</span>
+                                </li><br/>
+                                <li>
+                                    <i class="fa-li fa fa-globe"></i>
+                                    <span><a href="#">www.mcmillanwoods.com</a></span>
+                                </li><br/>
+                                <li>
+                                    <i class="fa-li fa fa-briefcase"></i>
+                                    <span>8.30am - 7.00pm</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 title">
+                    <div class ="item-cell">
+                        <h4>OUR SERVICES</h4>
+                        <span>.....</span>
+                        <div class="board">
+                        <div class="row mb-2">
+                            <div class="col-12">
+                                <div class="table-container">
+                                    <div class="table-row">
+                                        <div class="table-cell">
+                                            <div class="table-cell-item"><h5>SOFTWARES</h5></div>
+                                            <div class="table-cell-item">
+                                               <i class="fa fa-desktop"></i><br/>
+                                            </div>
 
+                                        </div>
+                                        <div class="table-cell">
+                                            <div class="table-cell-item"><h5>MAINTANANCE</h5></div>
+                                            <div class="table-cell-item"><br/>
+                                                <i class="fa fa-wrench"></i>
+                                            </div>
+                                        </div>
+                                        <div class="table-cell text-left">
+                                            <div class="table-cell-item"><h5>TRAINING</h5></div>
+                                            <div class="table-cell-item">
+                                                <i class="fa fa-user"></i><br/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br/>
+                                    <div class="table-row">
+                                        <div class="table-cell board-left">
+                                            <div class="table-cell-item">
+                                                <ul class="text-left">
+                                                    <li>
+                                                        Accounting
+                                                    </li>
+                                                    <li>
+                                                        Invoicing
+                                                    </li>
+                                                    <li>
+                                                        Point of Sale
+                                                    </li>
+                                                    <li>
+                                                        Sales
+                                                    </li>
+                                                    <li>
+                                                        Purchase
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="table-cell board-left">
+                                            <div class="table-cell-item">
+                                                <ul class="text-left">
+                                                    <li>
+                                                        Installaton
+                                                    </li>
+                                                    <li>
+                                                        Configuration
+                                                    </li>
+                                                    <li>
+                                                        Cloud Backups
+                                                    </li>
+                                                    <li>
+                                                        Server Management
+                                                    </li>
+                                                    <li>
+                                                        Remote Support
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="table-cell board-left">
+                                            <div class="table-cell-item">
+                                                <ul class="text-left">
+                                                    <li>
+                                                        Accounting
+                                                    </li>
+                                                    <li>
+                                                        Functions
+                                                    </li>
+                                                    <li>
+                                                        Point of Sale
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </template>
 
