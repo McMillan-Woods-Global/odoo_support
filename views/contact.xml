@@ -63,8 +63,8 @@
                                         </div>
                                         <div class="table-cell">
                                             <div class="table-cell-item"><h5>MAINTANANCE</h5></div>
-                                            <div class="table-cell-item"><br/>
-                                                <i class="fa fa-wrench"></i>
+                                            <div class="table-cell-item">
+                                                <i class="fa fa-wrench"></i><br/>
                                             </div>
                                         </div>
                                         <div class="table-cell text-left">
