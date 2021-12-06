@@ -2,15 +2,15 @@
 <odoo>
     <data>
         <template id="login_layouts" inherit_id="web.login_layout">
-            <xpath expr="//a[@href='https://www.odoo.com?utm_source=db&amp;utm_medium=auth']" position="replace">
-                <a href="http://www.mcmillanwoods.com" target="_blank">Powered by <span><b>McMillan Woods</b></span></a><br/>
-                <a class="border-right pr-2 mr-1" href="/mcmillanwoods/support"><span><b>Contact Us</b></span></a>
+            <xpath expr="//a[@href='https://www.odoo.com?utm_source=db&amp;utm_medium=auth']" position="after">
+                <div>
+                    <a class="border-right pr-2 mr-1" href="/mcmillanwoods/support"><span><b>Contact Us</b></span></a>
+                </div>
             </xpath>
         </template>
         <template id="super_user" inherit_id="web.login">
             <xpath expr="//button[@name='redirect']" position="replace">
             </xpath>
         </template>
-
     </data>
 </odoo>
